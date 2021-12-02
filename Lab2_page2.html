@@ -1,0 +1,50 @@
+<!-- Лабораторна робота №2, Ткачук Н.В., група КН-2-2 -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+	<!-- Заголовок сайту -->
+	<title>Сторінка 2</title>
+  </head>
+  <!-- Основна секція(тіло веб-сторінк) -->
+  <body background="https://media.istockphoto.com/vectors/seamless-3d-white-bricks-wall-pattern-for-background-banner-label-vector-id1159178127?k=20&m=1159178127&s=170667a&w=0&h=bqULY_gmobk7Wg8haBiDrjQTI2tOvs2CPV_K1kE49RM="
+link="#FF0000" vlink="#008000" alink="#800080">
+    <!-- Кнопка навігації-->
+	<h1><a href="Lab2.html"><img src="images/homebutton.png" border="0"></a></h1>
+	<a name="top">Початок</a>
+	<h2>Гіперпосилання на файл аудіозапису</h2>
+	<!-- Створюємо гіперпосилання на файл аудіо запису -->
+    <br><a href="media/Phildel-Qi.mp3">Завантажте аудіо</a>
+	<p align="center"><h2>Впровадження аудіо об'єктів на Web-сторінку різними способами</h2></p>
+	<!-- Впроваджуємо звукові об'єкти на Web-сторінку -->
+	<br><embed src="media/Phildel-Qi.mp3" width="300" height="150" 
+	hidden autostart="true" loop="true"> <noember>Аудіо</noember>
+	
+	<br><object data="media/Phildel-Qi.mp3">Аудіо</object><br />
+	
+	<audio controls>
+	    <source src="media/Phildel-Qi.mp3" type="audio/mpeg"/>
+		<p>Your browser does not 
+		support this file or feature</p>
+	</audio>
+	
+	<h2>Гіперпосилання на файл відеозапису</h2>
+	<!-- Створюємо гіперпосилання на файл відеозапису -->
+	<br><a href="media/Fears.mp4">Завантажте відео</a>
+	<!-- Впроваджуємо об'єкти відео на Web-сторінку -->
+	<p align="center"><h2>Впровадження відео об'єктів на Web-сторінку різними способами</h2></p>
+	<br><embed src="media/Fears.mp4" width="600" height="300" 
+	hidden autostart="true" loop="true"> <noember>Відео</noember>
+	
+	<br><object data="media/Fears.mp4">Відео</object>
+	
+	<video controls>
+	    <source src="media/Fears.mp4" type="video/mp4"/>
+		<p>Your browser does not 
+		support this file or feature</p>
+	</video>
+	
+  <br><a name="end">Кінець</a>
+  	<!-- Кінець-->
+  </body>
+</html>
